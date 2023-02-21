@@ -30,6 +30,10 @@
     }
   },
   "npmName": "infinite-react-table",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lin9587/infinite-react-table"
+  },
   "bugs": {
     "url": "https://github.com/lin9587/infinite-react-table/isssues"
   },

@@ -1,0 +1,51 @@
+{
+  "name": "infinite-react-table",
+  "version": "0.0.3",
+  "type": "module",
+  "packageManager": "pnpm@7.26.0",
+  "description": "Infinite table for react",
+  "author": "lin",
+  "workspaces": [
+    "packages/*",
+    "play",
+    "docs"
+  ],
+  "scripts": {
+    "dev": "pnpm -C play dev"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "engines": {
+    "node": ">=16.11.0"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "vite",
+        "react",
+        "react-dom"
+      ]
+    }
+  },
+  "npmName": "infinite-react-table",
+  "bugs": {
+    "url": "https://github.com/lin9587/infinite-react-table/isssues"
+  },
+  "homepage": "https://github.com/lin9587/infinite-react-table",
+  "keywords": [
+    "infinite-react-table",
+    "table",
+    "react-table",
+    "infinite",
+    "react",
+    "react-component",
+    "infinite-table",
+    "react-table",
+    "datagrid",
+    "react-datagrid",
+    "react-infinite"
+  ],
+  "license": "MIT"
+}

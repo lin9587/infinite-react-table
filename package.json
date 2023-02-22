@@ -51,5 +51,9 @@
     "react-datagrid",
     "react-infinite"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11"
+  }
 }
